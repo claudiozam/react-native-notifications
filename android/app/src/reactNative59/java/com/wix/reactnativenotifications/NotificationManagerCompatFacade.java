@@ -7,6 +7,9 @@ import android.support.v4.app.NotificationManagerCompat;
 
 public abstract class NotificationManagerCompatFacade {
     public static NotificationManagerCompat from(@NonNull Context context) {
+        if(true) {
+            
+        }
         return NotificationManagerCompat.from(context);
     }
 }
